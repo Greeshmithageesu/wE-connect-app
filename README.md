@@ -5,7 +5,7 @@
 
 Clone this repository and import into Android Studio
 
-    git clone https://github.com/sumanp2710/wE-connect.git
+    git clone https://github.com/Greeshmithageesu/wE-connect-app.git
 
 ## App Features
 
