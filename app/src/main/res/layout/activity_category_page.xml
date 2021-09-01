@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back1"
+    tools:context=".Category_page">
+
+    <Button
+        android:id="@+id/id_la"
+        android:layout_width="365dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button_back"
+        android:fontFamily="@font/poppins_medium"
+        android:text="@string/large_appliances"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:backgroundTint="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="@string/Categories"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#0A1034"
+        android:textSize="42sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/id_sa"
+        android:layout_width="365dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/button_back"
+        android:fontFamily="@font/poppins_medium"
+        android:text="@string/small_appliances"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:backgroundTint="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/id_la" />
+
+    <Button
+        android:id="@+id/id_gadgets"
+        android:layout_width="365dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_back"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Gadgets"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:backgroundTint="@null"
+        app:iconTint="#9A9292"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/id_sa" />
+
+    <Button
+        android:id="@+id/id_medicaldevices"
+        android:layout_width="365dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_back"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Medical Devices"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:backgroundTint="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/id_gadgets" />
+
+    <Button
+        android:id="@+id/id_ld"
+        android:layout_width="365dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_back"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Lighting Devices"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:backgroundTint="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/id_medicaldevices" />
+
+    <Button
+        android:id="@+id/id_toys"
+        android:layout_width="365dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_back"
+        android:fontFamily="@font/poppins_medium"
+        android:text="@string/toys"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:backgroundTint="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/id_ld" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

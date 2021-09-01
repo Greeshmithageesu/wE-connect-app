@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back1"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/poppins_medium"
+        android:gravity="center"
+        android:text="Sell your product"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/ShowImageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:shapeAppearanceOverlay="@style/Roundedimage"
+        android:layout_marginRight="35dp"
+        android:layout_marginLeft="35dp"
+        android:layout_below="@+id/textview"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textview" />
+
+    <Button
+        android:id="@+id/ButtonChooseImage"
+        android:layout_width="245dp"
+        android:layout_height="61dp"
+        android:layout_below="@+id/ShowImageView"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/pink_button"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Choose Image"
+        android:textSize="20dp"
+        app:backgroundTint="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ShowImageView" />
+
+    <EditText
+        android:id="@+id/ImageNameEditText"
+        android:layout_width="335dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/ButtonChooseImage"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/back_edittext"
+        android:fontFamily="@font/poppins_medium"
+        android:gravity="center"
+        android:hint="Write Description"
+        android:textSize="25dp"
+        app:backgroundTint="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ButtonChooseImage" />
+
+    <EditText
+        android:id="@+id/ImageNameEditPrice"
+        android:layout_width="335dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/ButtonChooseImage"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/back_edittext"
+        android:fontFamily="@font/poppins_medium"
+        android:gravity="center"
+        android:hint="Enter Price"
+
+        android:textSize="20sp"
+        app:backgroundTint="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.46"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ImageNameEditText" />
+
+    <Button
+        android:id="@+id/ButtonUploadImage"
+        android:layout_width="245dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/ImageNameEditPrice"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/pink_button"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Sell"
+        android:textSize="30sp"
+        app:backgroundTint="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ImageNameEditPrice" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
