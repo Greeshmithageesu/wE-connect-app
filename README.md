@@ -1,6 +1,17 @@
 # wE-connect-app
 "wE-Connect" is a mobile app developed to assist environment conscious users of electronic devices, when they decide to discard and need someone to come to their doorstep to collect-waste for recycling.
 
+## wE-connect Team
+* B Greeshmitha,CS19B004
+* Bobba Ruthvik,CS19B007
+* Suman P,CS19B039
+* Rithika Sapparapu,CS19B048
+
+## Contributions
+* Bobba Ruthvik and Suman worked on the whole buyer interface of the app which includes creating design layouts,programming the interface and integrating the whole buyer interface with the firebase.
+* Rithika and Greeshmitha worked on the whole seller interface of the app which includes creating design layouts,programming the interface and integrating the whole seller interface with the firebase.
+
+
 ## Installation
 
 Clone this repository and import into Android Studio
@@ -24,6 +35,9 @@ Clone this repository and import into Android Studio
 *    The payment gateway will be introduced in upcoming updates.
 *    Additional benefits will be given for verified buyers and sellers.
 *    An option to sell as a community will be enabled to address the minimum threshold requirements.
+
+
+
 
 ## Tech-Stack
 *       Android Studio
