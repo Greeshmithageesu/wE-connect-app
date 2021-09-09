@@ -51,4 +51,8 @@ Clone this repository and import into Android Studio
 
 ## Video Attachments link: https://drive.google.com/file/d/1EOpkOh83VOYxA0I2sSEEEMgmXGAYFE2V/view?usp=sharing
 
+## Fixing bugs
+*       If the buyer cart crashes, the database is to be cleared before running app again. Link to the firebase has been added below:
+*       link to firebase: https://console.firebase.google.com/u/0/project/weconnect-46ef6/settings/iam
+
 ## link to .apk file of the app: https://drive.google.com/file/d/13awwPW8NfkweyM1XL5ynjC72qZ6pY-ra/view?usp=sharing
