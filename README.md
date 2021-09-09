@@ -50,3 +50,5 @@ Clone this repository and import into Android Studio
 *       Release version v 1.0.0
 
 ## Video Attachments link: https://drive.google.com/file/d/1EOpkOh83VOYxA0I2sSEEEMgmXGAYFE2V/view?usp=sharing
+
+## link to .apk file of the app: https://drive.google.com/file/d/13awwPW8NfkweyM1XL5ynjC72qZ6pY-ra/view?usp=sharing
